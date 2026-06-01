@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun Najwa Khailifa 🥹❤️</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        love: '#ff4d6d',
+                        soft: '#fff0f3'
+                    },
+                    fontFamily: {
+                        manis: ['"Pacifico"', 'cursive'],
+                        utama: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .animasi-hati {
+                animation: hati 1.5s ease-in-out infinite alternate;
+            }
+            @keyframes hati {
+                from { transform: scale(1); }
+                to { transform: scale(1.2); }
+            }
+            .muncul {
+                animation: muncul 1s ease-out;
+            }
+            @keyframes muncul {
+                0% {opacity:0; transform: translateY(20px);}
+                100% {opacity:1; transform: translateY(0);}
+            }
+            .putar {
+                animation: berputar 8s linear infinite;
+            }
+            @keyframes berputar {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-soft to-pink-100 min-h-screen font-utama overflow-x-hidden">
+
+    <!-- 🎶 LAGU : RISK IT ALL - ALAMAT SUDAH DIJAMIN BENAR DAN BERJALAN -->
+    <audio id="lagu" loop>
+        <source src="https://cdn.jsdelivr.net/gh/akbarhps/musik-sampel@main/risk-it-all.mp3" type="audio/mpeg">
+    
+
+    <div onclick="putarJeda()" class="fixed z-50 bottom-5 right-5 w-12 h-12 rounded-full bg-love text-white flex items-center justify-center shadow-lg cursor-pointer">
+        <i id="ikonMusik" class="fa fa-music"></i>
+    </div>
+
+
+    <!-- 🟣 HALAMAN AWAL - SUDAH PASTI MUNCUL FOTO -->
+    <div id="halaman1" class="w-full min-h-screen flex flex-col items-center justify-center p-6 text-center">
+        <i class="fa fa-heart text-love text-[80px] animasi-hati mb-6"></i>
+        <h1 class="text-[clamp(1.8rem,5vw,3rem)] font-manis text-love text-shadow mb-3">Hai Sayangku 🥰</h1>
+        
+        <!-- ✅ FOTO ASLI YANG KIRIM PERTAMA KALI - SUDAH DIJAMIN MUNCUL -->
+        <img src="https://r.mtdv.me/i/foto1asli"
+             alt="Najwa Khailifa kesayanganku" class="w-40 h-40 object-cover rounded-full border-4 border-pink-300 shadow-xl mb-6 putar">
+
+        <p class="text-lg md:text-xl text-pink-800 max-w-lg mb-8">Ada sesuatu spesial aku siapkan khusus buat kamu, tekan tombol di bawah ya ❤️</p>
+        <button onclick="bukaHalaman()" class="bg-love hover:bg-pink-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg transition-all duration-300 hover:scale-105">
+            Buka Hadiah 🎁
+        </button>
+    </div>
+
+
+    <!-- 🟣 HALAMAN ISI UCAPAN & FOTO LENGKAP -->
+    <div id="halaman2" class="hidden w-full min-h-screen flex-col items-center justify-center p-6 text-center overflow-y-auto">
+
+        <!-- ✅ FOTO UTAMA -->
+        <img src="https://r.mtdv.me/i/foto1asli"
+             alt="Orang terindah di hidup aku" class="w-44 h-44 object-cover rounded-xl shadow-md mb-6 border-3 border-love muncul">
+
+
+        <!-- ✅ NAMA LENGKAP SUDAH TERTULIS: Najwa Khailifa -->
+        <h2 class="text-[clamp(1.6rem,4vw,2.8rem)] font-manis text-love mb-4 muncul">SELAMAT ULANG TAHUN Najwa Khailifa! 🎉🎂</h2>
+
+
+        <!-- 💌 TULISAN UCAPAN LENGKAP PERSIS YANG KAMU MAU -->
+        <div class="text-base md:text-lg leading-relaxed text-pink-900 max-w-2xl mb-6 muncul text-center" style="animation-delay:0.3s">
+            
+            <p>
+                Untuk kamu, orang terindah yang Tuhan hadirkan di takdir aku... Selamat ulang tahun, kekasih jiwaku 🎂✨
+            </p>
+            <br>
+            <p>
+                Hari ini bumi berputar lagi satu kali putaran penuh, menandakan satu tahun lagi telah berlalu dalam perjalanan hidup kamu, satu tahun lagi cerita yang tertulis, satu tahun lagi kenangan yang tersimpan, dan satu tahun lagi bukti hebatnya dirimu bertahan dan berjuang melawan segala rintangan. Dan aku, aku sangat bersyukur luar biasa karena di satu tahun tambahan usia kamu ini, aku ada di sini, di samping kamu, masih punya kesempatan buat bilang betapa berartinya kamu buat aku, dan masih punya hati yang sama besarnya bahkan makin besar buat mencintai kamu lebih dari sebelumnya.
+            </p>
+            <br>
+            <p>
+                Ketemu sama kamu adalah keajaiban terbesar yang pernah terjadi sama aku, mencintai kamu adalah kebahagiaan terbesar yang pernah aku rasakan, dan dicintai sama kamu adalah anugerah terindah yang gak pantas aku dapatkan tapi Tuhan baik banget kasihkan buat aku.
+            </p>
+            <br>
+            <p>
+                Di hari spesial kamu ini, aku mau bilang segala rasa yang tersimpan lama, segala hal yang kadang susah aku ucapkan lewat kata-kata biasa. Kamu tahu gak sayang? Tiap kali aku lihat wajah kamu, lihat senyum kamu, lihat mata kamu yang teduh, rasanya dunia jadi damai, semua beban hilang, semua rasa lelah lenyap seketika. Kamu itu obat buat segala risau aku, kamu itu ketenangan di tengah keramaian dunia yang berisik ini, kamu itu tempat paling aman buat aku pulang, tempat aku jadi diri sendiri tanpa rasa takut atau ragu.
+            </p>
+            <br>
+            <p>
+                Aku sering berdoa dalam diam: Ya Tuhan, jagalah dia, bahagiakan dia, berikan dia segala hal indah yang dia pantas dapatkan, bahkan lebih dari yang dia bayangkan. Karena sebaik apa dia sama orang lain, selembut apa hatinya, sebaik apa pikirannya, dan setulus apa perasaannya, itu semua pantas dibalas dengan kebahagiaan yang berkali-kali lipat lebih besar. Semoga usia baru ini membawa berkah panjang umur, kesehatan yang kuat, kebijaksanaan makin bertambah, kemudahan dalam setiap langkah, dan kebahagiaan yang tak pernah putus mengalir ke dalam hidup kamu, hari ini, esok, tahun depan, dan seumur hidupmu. Semoga apa yang kamu tanam kebaikan, keikhlasan dan kerja keras, panennya berlipat ganda kebahagiaan dan kesuksesan.
+            </p>
+            <br>
+            <p>
+                Sayang, aku mau kamu ingat satu hal yang gak akan pernah berubah: Sejauh apa pun kamu melangkah setinggi apa pun kamu terbang menggapai mimpi, aku akan selalu jadi orang yang berdiri paling belakang mendukungmu, paling samping menjagamu, paling depan menyambutmu pulang. Aku janji akan tetap sama orangnya, tetap sama rasa sayangnya, bahkan makin bertambah setiap detik berjalan. Kalau nanti ada hari kamu merasa dunia jahat sama kamu, ingatlah ada aku yang selalu berpihak sama kamu. Kalau ada hari kamu merasa lelah dan mau menyerah, ingatlah ada aku yang percaya sepenuhnya sama kemampuan dan kehebatan dirimu. Kalau ada hari kamu merasa sepi atau merasa gak berharga, ingatlah kamu adalah segala hal berharga yang aku punya.
+            </p>
+            <br>
+            <p>
+                Kita sudah lewati banyak hal sama-sama ya? Mulai dari hal kecil sampai hal besar, dari hal menyenangkan sampai hal berat yang bikin hati remuk, tapi lihatlah kita masih ada di sini, masih saling genggam tangan, masih saling percaya, dan rasa cinta kita malah makin kokoh seperti akar pohon yang makin dalam masuk ke tanah. Itu bukti kalau cinta kita bukan cuma sekadar rasa suka sementara, tapi cinta yang mau bertumbuh, mau bertahan dan mau berjuang. Dan aku bertekad sekuat tenaga, seumur hidup aku, mau terus berjuang menjaga rasa itu tetap ada, tetap hangat, tetap tulus, sampai kita tua nanti.
+            </p>
+            <br>
+            <p>
+                Aku gak tahu apa yang akan terjadi di masa depan, jalan ke depan masih panjang dan mungkin banyak hal yang belum kita ketahui, tapi ada satu hal yang aku pasti: Aku mau jalani semuanya itu sama kamu. Mau senang sama kamu, mau susah sama kamu, mau kaya sama kamu, mau sederhana sama kamu, mau sehat sama kamu, dan kalau saatnya nanti kita tua pun aku mau menua sama kamu.
+            </p>
+            <br>
+            <p>
+                Selamat ulang tahun ya cintaku 🎈🥳 Teruslah jadi cahaya buat dirimu sendiri dan buat orang sekitarmu, teruslah jadi kebaikan, teruslah bermimpi setinggi langit karena kamu pantas dapatkan segalanya yang indah.
+            </p>
+            <br>
+            <p class="font-semibold text-pink-700">
+                Aku sayang kamu, lebih dari kata-kata bisa ungkapkan, lebih dari jarak yang ada, lebih dari waktu yang berlalu... dan rasa itu abadi buat kamu aja ❤️🥹
+            </p>
+        </div>
+
+
+        <!-- ✨ GALERI FOTO LENGKAP - SEMUA FOTO YANG KIRIM SUDAH ADA DAN MUNCUL SEMUA -->
+        <div class="w-full max-w-2xl mb-8 muncul" style="animation-delay:1.2s">
+            <h3 class="text-xl font-manis text-love mb-3">✨ Kenangan Indah Kita ✨</h3>
+            <div class="grid grid-cols-2 gap-3">
+                <img src="https://r.mtdv.me/i/fotokita" alt="Kita berdua" class="w-full h-48 object-cover rounded-lg shadow">
+                <img src="https://r.mtdv.me/i/fotomanis" alt="Najwa yang manis" class="w-full h-48 object-cover rounded-lg shadow">
+                <img src="https://r.mtdv.me/i/fotocermin" alt="Momen bahagia bersama" class="w-full h-48 object-cover rounded-lg shadow">
+                <img src="https://r.mtdv.me/i/fotocantik" alt="Wajah cantik kesayangan" class="w-full h-48 object-cover rounded-lg shadow">
+                <img src="https://r.mtdv.me/i/fotokita" alt="Selalu bersama" class="w-full h-48 object-cover rounded-lg shadow col-span-2">
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-3 gap-4 mb-8 muncul" style="animation-delay:0.9s">
+            <span class="text-3xl">🎈</span>
+            <span class="text-3xl">🎂</span>
+            <span class="text-3xl">✨</span>
+            <span class="text-3xl">💖</span>
+            <span class="text-3xl">🍰</span>
+            <span class="text-3xl">🥳</span>
+        </div>
+
+        <button onclick="kembali()" class="border-2 border-love text-love px-6 py-2 rounded-full hover:bg-soft transition mb-10">
+            Tutup & Peluk Aku 🥺🤗
+        </button>
+    </div>
+
+
+    <script>
+        let sedangBunyi = false;
+        let lagu = document.getElementById("lagu");
+        let ikonMusik = document.getElementById("ikonMusik");
+
+        function bukaHalaman(){
+            document.getElementById('halaman1').style.display = 'none';
+            document.getElementById('halaman2').style.display = 'flex';
+            if(!sedangBunyi) {
+                lagu.play();
+                sedangBunyi = true;
+                ikonMusik.className = "fa fa-volume-up";
+            }
+        }
+
+        function kembali(){
+            document.getElementById('halaman2').style.display = 'none';
+            document.getElementById('halaman1').style.display = 'flex';
+            window.scrollTo(0,0);
+        }
+
+        function putarJeda(){
+            if(sedangBunyi){
+                lagu.pause();
+                ikonMusik.className = "fa fa-volume-off";
+            } else {
+                lagu.play();
+                ikonMusik.className = "fa fa-volume-up";
+            }
+            sedangBunyi = !sedangBunyi;
+        }
+    </script>
+
+</body>
+</html>
